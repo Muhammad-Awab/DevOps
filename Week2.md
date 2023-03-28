@@ -7,7 +7,7 @@ Extreme Programming (XP) is an Agile software development framework that emphasi
 
 Pair programming is a software development practice where two developers work together on the same codebase, sharing a single workstation. In pair programming, one person takes on the role of the "driver," who writes the code, while the other person takes on the role of the "navigator," who reviews the code and provides feedback and guidance.
 
-<img src="https://user-images.githubusercontent.com/125795058/227455157-cbb8dbd9-7780-4a8d-b679-9c52e71f3a41.png" width=350 />
+
 
 The benefits of pair programming include:
 
@@ -22,7 +22,7 @@ The benefits of pair programming include:
 5) Improved job satisfaction: Pair programming can be more engaging and interactive than working alone, leading to increased job satisfaction and a sense of shared ownership over the codebase.
 
 Pair programming is a popular practice in Agile and Extreme Programming methodologies and is often used in conjunction with other practices such as test-driven development and continuous integration to create a highly collaborative and efficient development environment.
-
+<img src="https://user-images.githubusercontent.com/125795058/227455157-cbb8dbd9-7780-4a8d-b679-9c52e71f3a41.png" width=350 />
 # Git Repository Guidelines for Agile Development
 
 Git is a popular version control system used in Agile software development. Here are some Git repository guidelines to follow when working on Agile development projects:
