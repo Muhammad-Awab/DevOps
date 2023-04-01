@@ -57,15 +57,6 @@ Working in batches is a key principle of Agile software development. Here are so
 
 Overall, working in batches is a powerful Agile practice that can help teams to work more collaboratively, prioritize tasks more effectively, and deliver high-quality software more efficiently.
 
-# What does MVP means?
-
-MVP stands for Minimum Viable Product. It is a product development strategy used in Agile software development that involves creating a basic version of a product with just enough features to satisfy early customers and validate the idea with minimal effort and cost. An MVP allows a product team to test the product concept with real users and obtain feedback on the product’s usability and potential for success before investing significant time and resources in building a fully-featured product.
-
-The idea behind an MVP is to create a working prototype of a product that can be tested in the real world, with minimal features and functionality, to gather feedback on what works and what doesn't. Based on this feedback, the team can then iterate and improve the product, adding more features and functionality over time.
-
-An MVP typically includes only the core features necessary to provide value to early adopters and test the product's viability. The goal is to create a product that is usable and provides value to customers while minimizing development time and resources.
-
-In summary, an MVP is the most basic version of a product that can be launched to test the product's viability and gather feedback from users with minimal effort and cost. It is an important part of the Agile development process and helps teams to create products that are user-centric and meet customer needs.
 
 # Lets get some understanding about Test-Driven Development (TDD) and Behavior-Driven Development (BDD)
 ### Minimum Viable Product
