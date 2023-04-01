@@ -68,59 +68,65 @@ An MVP typically includes only the core features necessary to provide value to e
 In summary, an MVP is the most basic version of a product that can be launched to test the product's viability and gather feedback from users with minimal effort and cost. It is an important part of the Agile development process and helps teams to create products that are user-centric and meet customer needs.
 
 # Lets get some understanding about Test-Driven Development (TDD) and Behavior-Driven Development (BDD)
+### Minimum Viable Product
 
-### What is Test-Driven Development (TDD)?
+<img src="../Images/MVP-1.png" style="zoom:120%;" />
 
-Test-Driven Development (TDD) is a software development methodology that emphasizes writing automated tests for each feature or piece of functionality before writing the actual code. The TDD process involves three main steps:
+- MVP is a product with features to attract customers and to validate idea behind the product. It is created with minimum set of requirements to satisfy the customers and to take feedback quickly. 
+- It helps to take feedback early on and to iterate and improve the product in future.
+- As agile methodologies suggest to iterate product and continuous feedback from the customer, MVP plays an important role in agile development.
+- MVP includes minimum requirements for the customer to solve a problem so that it can be released to beta testers who provides feedback. The feedback is then used to improve product features and functionality.
+- Through the initial feedback, MVP can help reduce the risk of failure because the initial idea is validated before committing to large budget and complete development cycle.
 
-1) Writing a failing test case: The developer writes a test case that captures the expected behavior of the feature or functionality they want to implement. This test case initially fails because the feature does not yet exist.
+### Test-Driven Development
 
-2) Writing the code to pass the test: The developer writes the minimum amount of code required to make the failing test pass. This code is not optimized or extended beyond what is necessary to pass the test.
+Test-Driven Development, TDD is a software development methodology in which the code is written in response to a test case meaning that test in written before the code.  
 
-3) Refactoring the code: Once the test passes, the developer refactors the code to improve its design, readability, and maintainability. This step is important to ensure that the codebase remains maintainable and scalable over time.
+Automated tests are written for each functionality and then the code is written to validate those tests. If the test fails, then new code is written.
 
-The TDD methodology is beneficial for several reasons. First, it helps ensure that code is tested thoroughly and that all features and functionality are working correctly before they are released. Second, it encourages developers to write simple, modular, and well-organized code that is easy to maintain and extend. Finally, TDD can lead to improved collaboration and communication between developers and testers, as the tests serve as a clear specification for the expected behavior of the software.
+<img src="../Images/software_quality-test_driven_testing_mobile.jpg" style="zoom:120%;" />
 
-Overall, TDD is a valuable approach to software development that can lead to higher quality code, faster development cycles, and increased collaboration between team members.
+TDD asks to write a failing test case first and then a piece of code which satisfies the test case so that it passes. TDD emphasizes to correct failed tests before writing new code as it avoids duplication. TDD involves the following steps:
+
+1. **Write a failing test case**: Before writing any code, the developer writes a test case that describes the behavior they want to implement in the code. The test case should verify that the code behaves as expected when given a particular input or set of inputs. At this stage, the test case should fail because the code has not yet been written to implement the desired behavior.
+2. **Write the minimum amount of code to make the test pass**: Once the test case has been written, the developer writes the minimum amount of code necessary to make the test pass. This code should be simple and straightforward and should only implement the functionality necessary to pass the test. This step is sometimes referred to as "coding to the test."
+3. **Refactor the code**: Once the test case is passed, the developer refactors the code to improve its design, maintainability, and performance. This step involves making changes to the code that do not affect its behavior but make it easier to read, understand, and modify in the future.
+4. **Repeat the process**: The developer repeats the process for each new piece of functionality required by the software. By following this cycle repeatedly, the developer can iteratively build and improve the codebase while ensuring that it always meets the requirements of the project.
+
+<img src="../Images/Screenshot-2020-12-31-at-4.webp" style="zoom:120%;" />
 
 
-### What is Behaviour-Driven Development (BDD)?
 
-Behavior-Driven Development (BDD) is a software development methodology that extends the principles of Test-Driven Development (TDD) to focus on the behavior of the system as a whole. BDD aims to ensure that the software being developed meets the needs of the business and its stakeholders by emphasizing the collaboration between developers, testers, and business analysts.
+### Behavior-Driven Development
 
-In BDD, the development team collaborates with business stakeholders to define the expected behavior of the system in a language that is understandable by both technical and non-technical team members. This shared understanding is captured in a document called a "feature file" or a "specification," which describes the desired behavior of the system in terms of user stories or scenarios.
+- Behavior-Driven Development ,BDD is an extension of Test-Driven Development (TDD) that aims to improve the communication and collaboration between developers, business stakeholders, and other members of a software development team. 
+- BDD is focused on describing the behavior of the system in a way that is easily understandable by all stakeholders, including developers, testers, and business people.
+- In BDD, the requirements of a software system are expressed in the form of scenarios, which describe how the system should behave under different conditions. 
+- Each scenario is written in a way that is easily understandable by non-technical stakeholders.
 
-Once the feature file is defined, the development team writes automated tests using a tool such as Cucumber or Behave, which translate the feature file into executable tests. These tests serve as a clear specification of the expected behavior of the software, and they can be used to ensure that the software is working correctly throughout the development process.
+<img src="../Images/6279365c5e6ddd4266505b60_behavior-driven-development-cycle-what-is-bdd.png" style="zoom:120%;" />
 
-BDD emphasizes the importance of collaboration between stakeholders, developers, and testers, as well as the use of a common language to describe the behavior of the system. By ensuring that everyone involved in the development process understands the desired behavior of the system, BDD can lead to higher quality software that better meets the needs of the business and its stakeholders.
+- BDD encourages collaboration between members of software development team.
+- By using a common language to describe the behavior of the system, developers and other stakeholders can ensure that they are all on the same page and working towards the same goals.
 
-## Difference between Test-Driven Development (TDD) and Behaviour-Driven Development (BDD)
+### Difference between TDD and BDD
 
-Test-Driven Development (TDD) and Behavior-Driven Development (BDD) are both software development methodologies that emphasize automated testing. The main differences between the two are:
+| TDD                                                          | BDD                                                          |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Focuses on testing the functionality of individual code units or modules | Focuses on testing the behavior of the system as a whole     |
+| Developer-centric, focused on implementation details         | Business-centric, focused on describing behavior using a common language |
+| Test cases are written in code by developers.                | Test cases are written in a structured natural language by all stakeholders |
+| Encourages collaboration between developers and testers      | Encourages collaboration between developers, testers, and business stakeholders |
+| Helps improve code quality and maintainability.              | It ensures the software meets the needs of the business and is well-designed and maintainable. |
 
-1) Focus on language and audience: TDD focuses on the developer audience and uses technical language, while BDD focuses on the entire project team, including non-technical stakeholders, and uses a more natural language that is easier to understand.
+### Why TDD is important for DevOps?
 
-2) Test naming convention: TDD follows the convention of "test names should start with 'test'", while BDD uses a "should" or "should not" format for test names.
+- TDD helps improve the quality of code because it encourages developers to write tests before coding. The code is written for each feature making it more easy to maintain.
+- TDD provides early error detection because of automated tests written initially before coding that helps developers to fix the issues early on in the development process.
+- TDD requires developers to write automated tests. This helps to ensure that the software is tested thoroughly and consistently, reducing the risk of errors in the production.
 
-3) Level of abstraction: TDD focuses on testing individual functions or units of code, while BDD focuses on testing user stories or features.
 
-4) Collaboration and communication: BDD emphasizes collaboration and communication between developers, testers, and business stakeholders to ensure that the software being developed meets the needs of the business.
 
-Overall, while TDD and BDD share a similar goal of automated testing, BDD is more focused on collaboration and communication, using a language that is accessible to non-technical stakeholders, while TDD is more focused on testing individual units of code.
-
-# Why is TDD Important for DevOps?
-
-Test-Driven Development (TDD) is important for DevOps because it helps to ensure that software is delivered quickly, reliably, and with high quality. Here are a few reasons why:
-
-1) Early detection of defects: By writing tests before writing code, TDD helps to catch defects early in the development process, when they are easier and less expensive to fix.
-
-2) Improved code quality: TDD encourages developers to write code that is modular, maintainable, and testable, which leads to higher quality software.
-
-3) Faster feedback: TDD provides rapid feedback to developers, allowing them to identify issues and fix them quickly, which helps to speed up the development process.
-
-4) Automation: TDD is a key component of test automation, which is a critical aspect of DevOps. Automated tests can be run as part of a continuous integration and continuous delivery (CI/CD) pipeline, helping to ensure that changes are tested thoroughly before they are deployed to production.
-
-Overall, TDD helps to create a culture of quality and collaboration, which is essential for successful DevOps practices.
 
 # What are Cloud Native Microservices?
 
