@@ -69,7 +69,7 @@ Overall, working in batches is a powerful Agile practice that can help teams to 
 <img src="https://blog.crisp.se/wp-content/uploads/2016/01/mvp.png"/>
 
 ### Test-Driven Development
-
+# First You make thr prototype then you write the code.
 Test-Driven Development, TDD is a software development methodology in which the code is written in response to a test case meaning that test in written before the code.  
 
 Automated tests are written for each functionality and then the code is written to validate those tests. If the test fails, then new code is written.
