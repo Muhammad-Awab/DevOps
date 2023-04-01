@@ -66,7 +66,7 @@ Overall, working in batches is a powerful Agile practice that can help teams to 
 - As agile methodologies suggest to iterate product and continuous feedback from the customer, MVP plays an important role in agile development.
 - MVP includes minimum requirements for the customer to solve a problem so that it can be released to beta testers who provides feedback. The feedback is then used to improve product features and functionality.
 - Through the initial feedback, MVP can help reduce the risk of failure because the initial idea is validated before committing to large budget and complete development cycle.
-
+https://blog.crisp.se/wp-content/uploads/2016/01/mvp.png
 ### Test-Driven Development
 
 Test-Driven Development, TDD is a software development methodology in which the code is written in response to a test case meaning that test in written before the code.  
