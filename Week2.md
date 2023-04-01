@@ -70,8 +70,6 @@ In summary, an MVP is the most basic version of a product that can be launched t
 # Lets get some understanding about Test-Driven Development (TDD) and Behavior-Driven Development (BDD)
 ### Minimum Viable Product
 
-<img src="../Images/MVP-1.png" style="zoom:120%;" />
-
 - MVP is a product with features to attract customers and to validate idea behind the product. It is created with minimum set of requirements to satisfy the customers and to take feedback quickly. 
 - It helps to take feedback early on and to iterate and improve the product in future.
 - As agile methodologies suggest to iterate product and continuous feedback from the customer, MVP plays an important role in agile development.
@@ -84,7 +82,7 @@ Test-Driven Development, TDD is a software development methodology in which the 
 
 Automated tests are written for each functionality and then the code is written to validate those tests. If the test fails, then new code is written.
 
-<img src="../Images/software_quality-test_driven_testing_mobile.jpg" style="zoom:120%;" />
+
 
 TDD asks to write a failing test case first and then a piece of code which satisfies the test case so that it passes. TDD emphasizes to correct failed tests before writing new code as it avoids duplication. TDD involves the following steps:
 
@@ -93,7 +91,7 @@ TDD asks to write a failing test case first and then a piece of code which satis
 3. **Refactor the code**: Once the test case is passed, the developer refactors the code to improve its design, maintainability, and performance. This step involves making changes to the code that do not affect its behavior but make it easier to read, understand, and modify in the future.
 4. **Repeat the process**: The developer repeats the process for each new piece of functionality required by the software. By following this cycle repeatedly, the developer can iteratively build and improve the codebase while ensuring that it always meets the requirements of the project.
 
-<img src="../Images/Screenshot-2020-12-31-at-4.webp" style="zoom:120%;" />
+
 
 
 
@@ -104,7 +102,6 @@ TDD asks to write a failing test case first and then a piece of code which satis
 - In BDD, the requirements of a software system are expressed in the form of scenarios, which describe how the system should behave under different conditions. 
 - Each scenario is written in a way that is easily understandable by non-technical stakeholders.
 
-<img src="../Images/6279365c5e6ddd4266505b60_behavior-driven-development-cycle-what-is-bdd.png" style="zoom:120%;" />
 
 - BDD encourages collaboration between members of software development team.
 - By using a common language to describe the behavior of the system, developers and other stakeholders can ensure that they are all on the same page and working towards the same goals.
