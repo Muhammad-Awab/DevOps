@@ -16,7 +16,6 @@
 4. If the **build or tests fail, the team is alerted** to the issue so that it can be addressed promptly.
 5. If the **build and tests pass, the changes are merged** into the main codebase and the cycle continues.
 
-<img src="../Images/continuous-integration-2.png" style="zoom:120%;" />
 
  ### Continuous Delivery 
 
